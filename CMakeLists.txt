@@ -5,7 +5,7 @@ project(wave CXX)
 include(CTest)
 
 # build options
-option(wave_enable_tests "Build Unit tests" ON)
+option(wave_enable_tests "Build Unit tests" OFF)
 
 # if cmake osx deployment target is defined, don't override the cxx standard
 if (NOT CMAKE_OSX_DEPLOYMENT_TARGET)
